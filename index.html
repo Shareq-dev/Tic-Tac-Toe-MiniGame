@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic-Tac-Toe | GitHub Extraction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="noise"></div>
+    <div class="vignette"></div>
+    <div class="scanline"></div>
+
+    <main class="launcher" id="launcher">
+      <div class="launcher-card">
+        <h1>Tic-Tac-Toe</h1>
+        <p class="launcher-copy">A polished Tic-Tac-Toe mini-game featuring multiple difficulty levels, a smart AI opponent, and smooth gameplay — built as part of an interactive web experience.</p>
+        <button class="btn launcher-btn" id="openGameBtn" type="button">Take a Quick Break</button>
+      </div>
+    </main>
+
+    <div class="game-modal" id="gameModal">
+      <div class="game-box">
+        <button class="close-btn" id="closeGameBtn" type="button" aria-label="Close Tic-Tac-Toe game">&times;</button>
+        <div class="game-title">Tic-Tac-Toe</div>
+        <div class="game-hud">
+          <span>You: X</span>
+          <select id="difficulty" class="select" aria-label="Choose AI difficulty">
+            <option value="easy">Easy</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+        <div class="board" id="board" aria-label="Tic-Tac-Toe board"></div>
+        <div class="bottom-controls">
+          <button class="btn" id="restartBtn" type="button">Restart</button>
+        </div>
+        <div id="winPopup" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
