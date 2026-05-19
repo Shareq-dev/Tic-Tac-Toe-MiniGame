@@ -38,7 +38,7 @@ This project was originally developed as part of my 3D Interactive Portfolio and
 
 ## 🔗 Live Demo
 
-👉 https://shareq-dev.github.io/Tic-Tac-Toe-MiniGame-/
+👉 https://shareq-dev.github.io/Tic-Tac-Toe-MiniGame/
 
 ---
 
